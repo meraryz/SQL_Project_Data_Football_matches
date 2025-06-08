@@ -182,8 +182,6 @@ Here's the breakdown of the influence of the ball possession on the team's permo
 | Away | 60-69.9%         | 37.55          | 38.70            | 23.75           |
 | Away | 70-79.9%         | 46.49          | 31.58            | 21.93           |
 
-<br>
-
 ![](graphs\possession_rates.png)
 
 ## 4. Finding the Best Teams
