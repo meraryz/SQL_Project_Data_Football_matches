@@ -23,12 +23,11 @@ binned_data AS (
         result,
         side,
         CASE
-            WHEN possession BETWEEN 20 AND 29.9 THEN '20-29.9%'
             WHEN possession BETWEEN 30 AND 39.9 THEN '30-39.9%'
             WHEN possession BETWEEN 40 AND 49.9 THEN '40-49.9%'
         END AS possession_range
     FROM possession_data
-    WHERE possession BETWEEN 20 AND 49.9 AND
+    WHERE possession BETWEEN 30 AND 49.9 AND
     team IN ('Manchester City', 'Chelsea', 'Manchester United', 'Liverpool', 'Arsenal', 'Tottenham Hotspur')
 )
 

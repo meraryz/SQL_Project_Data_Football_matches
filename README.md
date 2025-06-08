@@ -544,12 +544,11 @@ binned_data AS (
         result,
         side,
         CASE
-            WHEN possession BETWEEN 20 AND 29.9 THEN '20-29.9%'
             WHEN possession BETWEEN 30 AND 39.9 THEN '30-39.9%'
             WHEN possession BETWEEN 40 AND 49.9 THEN '40-49.9%'
         END AS possession_range
     FROM possession_data
-    WHERE possession BETWEEN 20 AND 49.9 AND
+    WHERE possession BETWEEN 30 AND 49.9 AND
     team IN ('Manchester City', 'Chelsea', 'Manchester United', 'Liverpool', 'Arsenal', 'Tottenham Hotspur')
 )
 
@@ -573,21 +572,20 @@ Here's the breakdown of the performance of the teams with low possession:
 |--------------------|------------------|--------|--------|--------|
 | Arsenal            | 30-39.9%         | 38.46  | 38.46  | 23.08  |
 | Arsenal            | 40-49.9%         | 47.95  | 31.51  | 20.55  |
-| Chelsea            | 20-29.9%         | 66.67  | 33.33  | 0.00   |
 | Chelsea            | 30-39.9%         | 60.00  | 20.00  | 20.00  |
 | Chelsea            | 40-49.9%         | 49.28  | 11.59  | 39.13  |
 | Liverpool          | 30-39.9%         | 35.71  | 21.43  | 42.86  |
 | Liverpool          | 40-49.9%         | 61.67  | 18.33  | 20.00  |
 | Manchester City    | 30-39.9%         | 33.33  | 50.00  | 16.67  |
 | Manchester City    | 40-49.9%         | 71.43  | 14.29  | 14.29  |
-| Manchester United  | 20-29.9%         | 100.00 | 0.00   | 0.00   |
 | Manchester United  | 30-39.9%         | 47.37  | 21.05  | 31.58  |
 | Manchester United  | 40-49.9%         | 59.68  | 19.35  | 20.97  |
-| Tottenham Hotspur  | 20-29.9%         | 100.00 | 0.00   | 0.00   |
 | Tottenham Hotspur  | 30-39.9%         | 47.62  | 33.33  | 19.05  |
 | Tottenham Hotspur  | 40-49.9%         | 47.69  | 29.23  | 23.08  |
 
+<br>
 
+![](graphs\best_teams_low_possession.png)
 
 # Conclusions
 From the analysis, several general insights emerged:
@@ -606,3 +604,10 @@ From the analysis, several general insights emerged:
 ```
 
 5. The elite teams in the Premier League outperform the rest of the league. They show greater resilience and deliver better performances even when they are at a disadvantage in terms of possession or when they receive a red card.
+
+# Bibliography
+The Open-source data base I used: 
+[Click here](https://huggingface.co/datasets/WideMan/football_matches/viewer?views%5B%5D=train)
+<br>
+CSV File:
+[Click here](https://huggingface.co/datasets/WideMan/football_matches/resolve/main/football_matches.csv)
