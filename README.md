@@ -605,7 +605,7 @@ From the analysis, several general insights emerged:
 5. The elite teams in the Premier League outperform the rest of the league. They show greater resilience and deliver better performances even when they are at a disadvantage in terms of possession or when they receive a red card.
 
 # Bibliography
-The Open-source data base I used: 
+The Open-source database I used: 
 [Click here](https://huggingface.co/datasets/WideMan/football_matches/viewer?views%5B%5D=train)
 <br>
 CSV File:
