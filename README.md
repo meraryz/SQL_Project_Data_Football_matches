@@ -185,6 +185,7 @@ Here's the breakdown of the influence of the ball possession on the team's permo
 <br>
 
 ![](graphs\possession_rates.png)
+
 ## 4. Finding the Best Teams
 In order to make a comparison between the teams, I created a unified table combining home and away matches per team per season.
 
