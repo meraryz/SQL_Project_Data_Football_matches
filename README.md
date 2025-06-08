@@ -182,7 +182,7 @@ Here's the breakdown of the influence of the ball possession on the team's permo
 | Away | 60-69.9%         | 37.55          | 38.70            | 23.75           |
 | Away | 70-79.9%         | 46.49          | 31.58            | 21.93           |
 
-![](graphs\possession_rates.png)
+![](graphs/possession_rates.png)
 
 ## 4. Finding the Best Teams
 In order to make a comparison between the teams, I created a unified table combining home and away matches per team per season.
@@ -436,7 +436,7 @@ Here's the breakdown of the of home advantage on the top 6 teams' permormance:
 | Tottenham Hotspur   | Away | 45.26  | 1.795            | 0.084          | 55.81          | 1.61   | 1.29   |
 <br>
 
-![](graphs\home_and_away_wins_best_teams.png)
+![](graphs/home_and_away_wins_best_teams.png)
 
 ### Playing With A Red Card
 ```sql
@@ -518,7 +518,7 @@ Here's the breakdown of the effect of red card on the top 6 teams:
 
 <br>
 
-![](graphs\best_teams_red_card.png)
+![](graphs/best_teams_red_card.png)
 
 ### Low Possession
 ```sql
@@ -584,7 +584,7 @@ Here's the breakdown of the performance of the teams with low possession:
 
 <br>
 
-![](graphs\best_teams_low_possession.png)
+![](graphs/best_teams_low_possession.png)
 
 # Conclusions
 From the analysis, several general insights emerged:
