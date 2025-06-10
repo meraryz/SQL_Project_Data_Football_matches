@@ -60,7 +60,7 @@ Here's the breakdown of the influence of home advantage on the team's permormanc
 
     - Red cards - 37% more in away games.
 
-    - Ball posession doesn't differ much (only 5% more in favor of the home team)
+    - Ball possession doesn't differ much (only 5% more in favor of the home team)
 
 
 
@@ -604,7 +604,7 @@ From the analysis, several general insights emerged:
 
 5. The elite teams in the Premier League outperform the rest of the league. They show greater resilience and deliver better performances even when they are at a disadvantage in terms of possession or when they receive a red card.
 
-# Bibliography
+# Sources
 The Open-source database I used: 
 [Click here](https://huggingface.co/datasets/WideMan/football_matches/viewer?views%5B%5D=train)
 <br>
